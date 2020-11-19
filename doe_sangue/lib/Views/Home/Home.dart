@@ -1,4 +1,4 @@
-import 'package:doe_sangue/Views/FriendsList/FrindsList.dart';
+import 'package:doe_sangue/Views/FriendsList/FriendsList.dart';
 import 'package:doe_sangue/Views/Profile/Profile.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
@@ -20,7 +20,7 @@ class _HomeStatefulWidget extends State<Home> {
     Profile(),
     FriendsList(),
     Text(
-      'Index 2: School',
+      'Index 2: Settings',
       style: optionStyle,
     ),
   ];
@@ -47,17 +47,17 @@ class _HomeStatefulWidget extends State<Home> {
             label: 'Profile',
           ),
           BottomNavigationBarItem(
-            icon: Icon(Icons.business, color: Colors.white),
-            label: 'Business',
+            icon: Icon(Icons.people_alt, color: Colors.white),
+            label: 'People',
           ),
           BottomNavigationBarItem(
-            icon: Icon(Icons.school, color: Colors.white),
-            label: 'School',
+            icon: Icon(Icons.settings, color: Colors.white),
+            label: 'Settings',
           ),
         ],
         currentIndex: _selectedIndex,
         selectedIconTheme: IconThemeData(
-          size: 32,
+          size: 33,
         ),
         onTap: _onItemTapped,
       ),
