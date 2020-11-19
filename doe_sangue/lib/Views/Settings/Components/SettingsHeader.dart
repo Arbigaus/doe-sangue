@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 
-class ProfileUserComponent extends StatelessWidget {
+class SettingsHeader extends StatelessWidget {
   String userName;
   String imageUrl;
 
-  ProfileUserComponent(this.userName, this.imageUrl);
-  
+  SettingsHeader(this.userName, this.imageUrl);
+
   @override
   Widget build(BuildContext context) {
     final avatar = imageUrl==null || imageUrl.isEmpty

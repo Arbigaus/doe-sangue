@@ -15,8 +15,8 @@ class HeaderComponent extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final avatar = imageUrl==null || imageUrl.isEmpty
-        ? CircleAvatar(child: Icon(Icons.person), minRadius: 60,)
-        : CircleAvatar(backgroundImage: NetworkImage(imageUrl), minRadius: 60,);
+        ? CircleAvatar(child: Icon(Icons.person), minRadius: 100,)
+        : CircleAvatar(backgroundImage: NetworkImage(imageUrl), minRadius: 100,);
 
     return Container(
       child: Column(
@@ -29,6 +29,8 @@ class HeaderComponent extends StatelessWidget {
                 child: Center(
                   child: Container(
                     margin: EdgeInsets.all(10),
+                    height: 120,
+                    width: 120,
                     child: avatar,
                   ),
                 ),

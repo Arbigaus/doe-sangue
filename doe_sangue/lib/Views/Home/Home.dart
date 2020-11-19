@@ -1,5 +1,6 @@
 import 'package:doe_sangue/Views/FriendsList/FriendsList.dart';
 import 'package:doe_sangue/Views/Profile/Profile.dart';
+import 'package:doe_sangue/Views/Settings/Settings.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
@@ -19,10 +20,7 @@ class _HomeStatefulWidget extends State<Home> {
   static List<Widget> _widgetOptions = <Widget>[
     Profile(),
     FriendsList(),
-    Text(
-      'Index 2: Settings',
-      style: optionStyle,
-    ),
+    Settings()
   ];
 
   void _onItemTapped(int index) {
