@@ -49,13 +49,13 @@ class SignUp extends StatelessWidget {
                             ),
                             SizedBox(
                                 child:
-                                    InputField('Nome', _signUp, _formData)),
+                                    InputField('Nome', (value) => _formData['name'] = value)),
                             SizedBox(
                                 child: InputField(
-                                    'Email', _signUp, _formData)),
+                                    'Email',  (value) => _formData['email'] = value)),
                             SizedBox(
                                 child: InputField(
-                                    'Senha', _signUp, _formData)),
+                                    'Senha', (value) => _formData['password'] = value)),
                             SelectGender(),
                             SelectBlood(),
                             BloodButton(

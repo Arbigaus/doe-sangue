@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>521662709303-bt8u0haj34avh63o1ak8uv4drbgqenju.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.521662709303-bt8u0haj34avh63o1ak8uv4drbgqenju</string>
+	<key>ANDROID_CLIENT_ID</key>
+	<string>521662709303-pdio9te70qqe1oiuh4g7mn71ir6m5ql4.apps.googleusercontent.com</string>
+	<key>API_KEY</key>
+	<string>AIzaSyA8j-lK8mIPtRzYnIdgVroiQSk23aN3B4E</string>
+	<key>GCM_SENDER_ID</key>
+	<string>521662709303</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.arbigaus.doeSangue</string>
+	<key>PROJECT_ID</key>
+	<string>blood-donation-6c71b</string>
+	<key>STORAGE_BUCKET</key>
+	<string>blood-donation-6c71b.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:521662709303:ios:0f895bf02225ee778ac9b2</string>
+	<key>DATABASE_URL</key>
+	<string>https://blood-donation-6c71b.firebaseio.com</string>
+</dict>
+</plist>

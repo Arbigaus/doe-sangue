@@ -1,14 +1,15 @@
 
+import 'dart:ffi';
+
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
 // ignore: must_be_immutable
 class InputField extends StatelessWidget {
-  GlobalKey _key;
-  Map<String, String> _formData;
   String placeholder;
+  final Function(String) onSaved;
 
-  InputField(this.placeholder, this._key, this._formData);
+  InputField(this.placeholder, this.onSaved);
 
   @override
   Widget build(BuildContext context) {
@@ -30,7 +31,8 @@ class InputField extends StatelessWidget {
               errorBorder: InputBorder.none,
               disabledBorder: InputBorder.none
           ),
-          onSaved: (value) => _formData['email'] = value,
+          onChanged: (value) => onSaved(value),
+
         ),
       ),
     );
