@@ -1,7 +1,19 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
+// ignore: must_be_immutable
 class SelectGender extends StatelessWidget {
+  Function(String) onTapGender;
+  SelectGender(this.onTapGender);
+
+  String selected = "";
+
+  didTapGender(String value) {
+    print(value);
+    onTapGender(value);
+    selected = value;
+
+  }
 
   Widget createButton(String gender) {
     return Container(
@@ -9,12 +21,12 @@ class SelectGender extends StatelessWidget {
       child: ButtonTheme(
         height: 80,
         minWidth: 80,
-        child: RaisedButton(
+        child: new RaisedButton(
           shape: RoundedRectangleBorder(
               borderRadius: BorderRadius.circular(40),
               side: BorderSide(color: Colors.white)),
-          color: Colors.white,
-          onPressed: () => {},
+          color: gender == selected ? Colors.blueGrey : Colors.white,
+          onPressed: () => didTapGender(gender),
           child: Image.asset(
               'Images/gender$gender.png',
               width: 50,

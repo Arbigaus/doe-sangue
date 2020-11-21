@@ -4,6 +4,8 @@ import 'package:doe_sangue/Views/Login/Login.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 
+import 'package:firebase_core/firebase_core.dart';
+
 import 'Provider/Auth.dart';
 import 'Provider/Users.dart';
 import 'Routes/AppRoutes.dart';
@@ -15,12 +17,13 @@ void main() {
 }
 
 class MyApp extends StatelessWidget {
-  // This widget is the root of your application.
+
   @override
   Widget build(BuildContext context) {
     return MultiProvider(
       providers: [
         Provider<Auth>(create: (ctx) => Auth()),
+        Provider<Users>(create: (ctx) => Users()),
         Provider<Users>(create: (ctx) => Users())
       ],
       child: MaterialApp(
@@ -29,7 +32,7 @@ class MyApp extends StatelessWidget {
           primarySwatch: Colors.red,
           visualDensity: VisualDensity.adaptivePlatformDensity,
         ),
-        initialRoute: '/login',
+        initialRoute: AppRoutes.LOGIN,
         routes: {
           AppRoutes.HOME    : (_) => Home(),
           AppRoutes.LOGIN   : (_) => Login(),

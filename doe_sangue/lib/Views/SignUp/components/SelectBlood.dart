@@ -4,6 +4,8 @@ import 'package:flutter/material.dart';
 // ignore: must_be_immutable
 class SelectBlood extends StatelessWidget {
   var bloodList = ["A+", "A-", "B+", "B-", "O+", "O-", "AB+", "AB-"];
+  Function(String) onTapItem;
+  SelectBlood(this.onTapItem);
 
   Widget createButton(String label) {
     return Container(
@@ -16,7 +18,7 @@ class SelectBlood extends StatelessWidget {
               borderRadius: BorderRadius.circular(32.5),
               side: BorderSide(color: Colors.white)),
           color: Colors.white,
-          onPressed: () => {print(label)},
+          onPressed: () => onTapItem(label),
           child: Text(
             label,
             style: TextStyle(

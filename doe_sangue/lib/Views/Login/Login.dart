@@ -15,11 +15,47 @@ class Login extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
 
+    Future<void> _showMyDialog() async {
+      return showDialog<void>(
+        context: context,
+        barrierDismissible: false, // user must tap button!
+        builder: (BuildContext context) {
+          return AlertDialog(
+            title: Text('Ocorreu algum erro'),
+            content: SingleChildScrollView(
+              child: ListBody(
+                children: <Widget>[
+                  Text('Ocorreu algum erro ao fazer o login.'),
+                  Text('Por favor, verifique as credenciais e tente novamente.'),
+                ],
+              ),
+            ),
+            actions: <Widget>[
+              TextButton(
+                child: Text('Fechar'),
+                onPressed: () {
+                  Navigator.of(context).pop();
+                },
+              ),
+            ],
+          );
+        },
+      );
+    }
+
     void onPressedSignInButton() async {
-      print(_formData['email']);
-      await Provider.of<Auth>(context, listen: false)
-          .signIn(LoginData(email: _formData['email'],
-          password: _formData['password']));
+      try {
+        final String userId = await Provider.of<Auth>(context, listen: false)
+                  .signIn(LoginData(email: _formData['email'],
+                  password: _formData['password']));
+        print(userId);
+
+        Navigator.pushNamed(context, AppRoutes.HOME);
+
+      } catch (e) {
+        print(e);
+        await _showMyDialog();
+      }
     }
 
     return Scaffold(

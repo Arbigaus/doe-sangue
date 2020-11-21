@@ -1,5 +1,3 @@
-import 'dart:developer';
-
 import 'package:doe_sangue/Models/LoginData.dart';
 import 'package:flutter/material.dart';
 import 'package:firebase_auth/firebase_auth.dart';
@@ -20,34 +18,41 @@ class Auth with ChangeNotifier {
   }
 
   void signOut() {
-    _auth.signOut();
-    notifyListeners();
+    try {
+      _auth.signOut();
+      notifyListeners();
+    } catch (e) {
+      print(e);
+    }
   }
 
-  Future signIn(LoginData loginData) async {
-    final AuthResult authResult = await _auth.signInWithEmailAndPassword(
-                                      email: loginData.email,
-                                      password: loginData.password);
-    final FirebaseUser user = authResult.user;
-    notifyListeners();
-    if (user != null) {
-      print(user.uid);
-    } else {
-      print("Ocorreu algum erro!!");
+  Future<String> signIn(LoginData loginData) async {
+
+    try {
+      final AuthResult authResult = await _auth.signInWithEmailAndPassword(
+                                            email: loginData.email,
+                                            password: loginData.password);
+      final FirebaseUser user = authResult.user;
+      notifyListeners();
+      return user.uid;
+    } catch (e) {
+        notifyListeners();
+        throw(e);
     }
   }
 
   Future<String> register(LoginData loginData) async {
-    final AuthResult authResult = await _auth.createUserWithEmailAndPassword(
-                                            email: loginData.email,
-                                            password: loginData.password);
+    try {
+      final AuthResult authResult = await _auth.createUserWithEmailAndPassword(
+                                                  email: loginData.email,
+                                                  password: loginData.password);
 
-    final FirebaseUser user = authResult.user;
-    notifyListeners();
-    if (user != null) {
+      final FirebaseUser user = authResult.user;
+      notifyListeners();
       return user.uid;
-    } else {
-      return "Ocorreu algum erro!!";
+    } catch (e) {
+      notifyListeners();
+      throw(e);
     }
   }
 

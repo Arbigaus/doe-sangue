@@ -32,7 +32,6 @@ class InputField extends StatelessWidget {
               disabledBorder: InputBorder.none
           ),
           onChanged: (value) => onSaved(value),
-
         ),
       ),
     );
