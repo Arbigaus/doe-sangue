@@ -2,7 +2,7 @@ import 'package:doe_sangue/Components/BloodButton.dart';
 import 'package:doe_sangue/Components/InputField.dart';
 import 'package:doe_sangue/Models/LoginData.dart';
 import 'package:doe_sangue/Provider/Auth.dart';
-import 'package:doe_sangue/Provider/User.dart';
+import 'package:doe_sangue/Models/User.dart';
 import 'package:doe_sangue/Provider/Users.dart';
 import 'package:doe_sangue/Routes/AppRoutes.dart';
 import 'package:flutter/cupertino.dart';

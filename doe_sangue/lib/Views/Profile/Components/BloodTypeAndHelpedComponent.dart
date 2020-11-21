@@ -1,7 +1,11 @@
+import 'package:doe_sangue/Models/User.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
 class BloodTypeAndHelpedComponent extends StatelessWidget {
+  final User userData;
+  BloodTypeAndHelpedComponent(this.userData);
+
   static const TextStyle bloodTextStyle = TextStyle(
     fontSize: 50,
     fontWeight: FontWeight.bold,
@@ -28,7 +32,7 @@ class BloodTypeAndHelpedComponent extends StatelessWidget {
                 child: Column(
                     children: <Widget>[
                       Text(
-                        "A+",
+                        userData.bloodType,
                         style: bloodTextStyle,
                       ),
                       Text(

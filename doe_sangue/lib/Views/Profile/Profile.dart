@@ -1,13 +1,21 @@
+import 'package:doe_sangue/Models/User.dart';
+import 'package:doe_sangue/Provider/Users.dart';
 import 'package:doe_sangue/Views/Profile/Components/BloodTypeAndHelpedComponent.dart';
 import 'package:doe_sangue/Views/Profile/Components/ProfileUserComponent.dart';
 import 'package:doe_sangue/Views/Profile/Components/UserDataComponent.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:provider/provider.dart';
 
 class Profile extends StatelessWidget {
-
   @override
   Widget build(BuildContext context) {
+    User userData;
+    void getUserData() async {
+     userData = Provider.of<Users>(context, listen: false).getStorageUserData();
+    }
+    getUserData();
+
     return Scaffold(
         body: Container(
           decoration: new BoxDecoration(color: Colors.red[800]),
@@ -17,8 +25,8 @@ class Profile extends StatelessWidget {
               Expanded(
                 flex: 1,
                 child: ProfileUserComponent(
-                    'Peter Parker',
-                    'https://www.gannett-cdn.com/-mm-/cc053686530ce446f0a27dc352961fac33dd12ac/c=1144-81-2630-920/local/-/media/2017/06/26/USATODAY/USATODAY/636340759929048028-XXX-SPIDER-MAN-HOMECOMING-87249008.JPG')
+                    userData.name,
+                    userData.avatarUrl)
               ),
               Expanded(
                   flex: 1,
@@ -33,8 +41,8 @@ class Profile extends StatelessWidget {
                     child: Column(
                       crossAxisAlignment: CrossAxisAlignment.center,
                       children: <Widget> [
-                        BloodTypeAndHelpedComponent(),
-                        UserDataComponent()
+                        BloodTypeAndHelpedComponent(userData),
+                        UserDataComponent(userData)
                       ],
                     ),
                   )

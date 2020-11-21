@@ -6,14 +6,16 @@ class Auth with ChangeNotifier {
   FirebaseAuth _auth = FirebaseAuth.instance;
   // final LoginData _user;
 
-  void checkUserState() async {
-    final FirebaseUser user = await _auth.currentUser();
-    notifyListeners();
-      if (user == null) {
-        print('User is currently signed out!');
-      } else {
-        print('User is signed in!');
-      }
+  Future<String> checkUserState() async {
+    try {
+      final FirebaseUser user = await _auth.currentUser();
+      notifyListeners();
+      return user.uid;
+
+    } catch (e) {
+      print(e);
+      throw(e);
+    }
 
   }
 

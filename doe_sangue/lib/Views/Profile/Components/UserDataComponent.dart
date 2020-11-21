@@ -1,7 +1,10 @@
+import 'package:doe_sangue/Models/User.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
 class UserDataComponent extends StatelessWidget {
+  final User userData;
+  UserDataComponent(this.userData);
 
   static const TextStyle nameStyle = TextStyle(
       fontSize: 30,
@@ -17,15 +20,15 @@ class UserDataComponent extends StatelessWidget {
         padding: EdgeInsets.only(left: 30, right: 30, top: 40),
         child: Column(
           children: <Widget>[
-            UserDataListItem("Sexo", "Masculino"),
-            UserDataListItem("Peso", "85kg"),
-            UserDataListItem("Idade", "23 Anos"),
+            UserDataListItem("Sexo", userData.gender == 'M' ? 'Masculino' : 'Feminino'),
+            UserDataListItem("Peso", userData.weight),
+            UserDataListItem("Idade", "33 Anos"),
             Divider(
               color: Colors.black54,
               thickness: 2,
             ),
-            UserDataListItem("Ultima Doação", "27/03/2020"),
-            UserDataListItem("PRóxima Doação", "27/05/2020")
+            UserDataListItem("Ultima Doação", userData.lastDonation ?? ""),
+            UserDataListItem("PRóxima Doação", userData.nextDonation ?? "")
           ],
         ),
       )
