@@ -2,6 +2,7 @@ import 'package:doe_sangue/Models/User.dart';
 import 'package:doe_sangue/Provider/Auth.dart';
 import 'package:doe_sangue/Provider/Users.dart';
 import 'package:doe_sangue/Routes/AppRoutes.dart';
+import 'package:doe_sangue/Views/DonationPlaces/DonationPlaces.dart';
 import 'package:doe_sangue/Views/FriendsList/FriendsList.dart';
 import 'package:doe_sangue/Views/Profile/Profile.dart';
 import 'package:doe_sangue/Views/Settings/Settings.dart';
@@ -40,6 +41,7 @@ class _HomeStatefulWidget extends State<Home> {
   static List<Widget> _widgetOptions = <Widget>[
     Profile(),
     FriendsList(),
+    DonationPlaces(),
     Settings()
   ];
 
@@ -57,6 +59,7 @@ class _HomeStatefulWidget extends State<Home> {
         child: _widgetOptions.elementAt(_selectedIndex),
       ),
       bottomNavigationBar: BottomNavigationBar(
+        type: BottomNavigationBarType.fixed,
         backgroundColor: Colors.red[800],
         showSelectedLabels: false,
         showUnselectedLabels: false,
@@ -68,6 +71,10 @@ class _HomeStatefulWidget extends State<Home> {
           BottomNavigationBarItem(
             icon: Icon(Icons.people_alt, color: Colors.white),
             label: 'People',
+          ),
+          BottomNavigationBarItem(
+            icon: Icon(Icons.location_on, color: Colors.white),
+            label: 'Places',
           ),
           BottomNavigationBarItem(
             icon: Icon(Icons.settings, color: Colors.white),

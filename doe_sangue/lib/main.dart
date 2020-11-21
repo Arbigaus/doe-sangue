@@ -9,6 +9,7 @@ import 'package:firebase_core/firebase_core.dart';
 import 'Provider/Auth.dart';
 import 'Provider/Users.dart';
 import 'Routes/AppRoutes.dart';
+import 'Views/DonationPlaces/DonationPlaces.dart';
 import 'Views/Profile/Profile.dart';
 
 void main() {
@@ -37,7 +38,8 @@ class MyApp extends StatelessWidget {
           AppRoutes.HOME    : (_) => Home(),
           AppRoutes.LOGIN   : (_) => Login(),
           AppRoutes.SIGN_UP : (_) => SignUp(),
-          AppRoutes.PROFILE : (_) => Profile()
+          AppRoutes.PROFILE : (_) => Profile(),
+          AppRoutes.PLACES  : (_) => DonationPlaces(),
         }
       ),
     );

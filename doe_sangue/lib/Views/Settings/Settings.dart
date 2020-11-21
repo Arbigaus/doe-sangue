@@ -1,6 +1,9 @@
 import 'package:doe_sangue/Models/User.dart';
+import 'package:doe_sangue/Provider/Auth.dart';
 import 'package:doe_sangue/Provider/Users.dart';
+import 'package:doe_sangue/Routes/AppRoutes.dart';
 import 'package:doe_sangue/Views/Settings/Components/SettingsHeader.dart';
+import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 
@@ -19,6 +22,16 @@ class Settings extends StatelessWidget {
       userData = Provider.of<Users>(context, listen: false).getStorageUserData();
     }
     getUserData();
+
+    void _signOut() async {
+      try {
+        Provider.of<Auth>(context, listen: false)
+            .signOut();
+        Navigator.pushNamed(context, AppRoutes.LOGIN);
+      } catch (e) {
+        print(e);
+      }
+    }
 
     return Scaffold(
       body: Container(
@@ -54,7 +67,10 @@ class Settings extends StatelessWidget {
                     Expanded(child: Center(
                         child: Text("Sobre", style: buttonStyle, textAlign: TextAlign.center))),
                     Expanded(child: Center(
-                        child: Text("Sair", style: buttonStyle, textAlign: TextAlign.center))),
+                        child: CupertinoButton(
+                          onPressed: () => _signOut(),
+                          child: Text("Sair", style: buttonStyle, textAlign: TextAlign.center)
+                        ) )),
                   ],
                 ),
               ),
