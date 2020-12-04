@@ -7,9 +7,10 @@ import 'package:flutter/material.dart';
 // ignore: must_be_immutable
 class InputField extends StatelessWidget {
   String placeholder;
+  bool isPassword;
   final Function(String) onSaved;
 
-  InputField(this.placeholder, this.onSaved);
+  InputField(this.placeholder, this.onSaved, [this.isPassword = false]);
 
   @override
   Widget build(BuildContext context) {
@@ -23,6 +24,7 @@ class InputField extends StatelessWidget {
       child: Padding(
         padding: EdgeInsets.fromLTRB(20, 0, 20, 0),
         child: TextFormField(
+          obscureText: isPassword,
           decoration: InputDecoration(
               labelText: placeholder,
               border: InputBorder.none,

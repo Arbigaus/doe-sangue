@@ -93,7 +93,7 @@ class SignUp extends StatelessWidget {
                                     'Email',  (value) => _formData['email'] = value)),
                             SizedBox(
                                 child: InputField(
-                                    'Senha', (value) => _formData['password'] = value)),
+                                    'Senha', (value) => _formData['password'] = value, true)),
                             SelectGender((value) => _formData['gender'] = value),
                             SelectBlood((value) => _formData['bloodType'] = value),
                             BloodButton('Finalizar', onPressedSignUpButton)

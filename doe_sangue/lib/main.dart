@@ -2,6 +2,7 @@ import 'package:doe_sangue/Views/Home/Home.dart';
 import 'package:doe_sangue/Views/SignUp/SignUp.dart';
 import 'package:doe_sangue/Views/Login/Login.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter_easyloading/flutter_easyloading.dart';
 import 'package:provider/provider.dart';
 
 import 'package:firebase_core/firebase_core.dart';
@@ -40,7 +41,8 @@ class MyApp extends StatelessWidget {
           AppRoutes.SIGN_UP : (_) => SignUp(),
           AppRoutes.PROFILE : (_) => Profile(),
           AppRoutes.PLACES  : (_) => DonationPlaces(),
-        }
+        },
+        builder: EasyLoading.init(),
       ),
     );
   }

@@ -2,10 +2,28 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
 // ignore: must_be_immutable
-class SelectBlood extends StatelessWidget {
-  var bloodList = ["A+", "A-", "B+", "B-", "O+", "O-", "AB+", "AB-"];
+class SelectBlood extends StatefulWidget {
   Function(String) onTapItem;
   SelectBlood(this.onTapItem);
+
+  @override
+  _SelectBloodState createState() => _SelectBloodState(onTapItem);
+}
+
+class _SelectBloodState extends State<SelectBlood> {
+  var bloodList = ["A+", "A-", "B+", "B-", "O+", "O-", "AB+", "AB-"];
+  String selected;
+
+  Function(String) onTapItem;
+  _SelectBloodState(this.onTapItem);
+
+  tapItemAction(String value) {
+    setState(() {
+      selected = value;
+    });
+    onTapItem(value);
+  }
+
 
   Widget createButton(String label) {
     return Container(
@@ -16,13 +34,16 @@ class SelectBlood extends StatelessWidget {
         child: RaisedButton(
           shape: RoundedRectangleBorder(
               borderRadius: BorderRadius.circular(32.5),
-              side: BorderSide(color: Colors.white)),
-          color: Colors.white,
-          onPressed: () => onTapItem(label),
+              side: BorderSide(color: Colors.white, width: 2),
+
+          ),
+          color: label == selected ? Colors.red : Colors.white,
+          onPressed: () => tapItemAction(label),
           child: Text(
             label,
             style: TextStyle(
-                color: Colors.red, fontSize: 18, fontWeight: FontWeight.bold),
+                color: label == selected ? Colors.white : Colors.red,
+                fontSize: 18, fontWeight: FontWeight.bold),
           ),
         ),
       ),
@@ -51,4 +72,5 @@ class SelectBlood extends StatelessWidget {
       ),
     );
   }
+
 }

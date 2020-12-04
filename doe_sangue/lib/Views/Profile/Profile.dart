@@ -25,8 +25,8 @@ class Profile extends StatelessWidget {
               Expanded(
                 flex: 1,
                 child: ProfileUserComponent(
-                    userData.name,
-                    userData.avatarUrl)
+                    userData.name ?? "",
+                    userData.avatarUrl ?? "")
               ),
               Expanded(
                   flex: 1,

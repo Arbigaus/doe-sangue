@@ -6,6 +6,7 @@ import 'package:doe_sangue/Routes/AppRoutes.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/painting.dart';
+import 'package:flutter_easyloading/flutter_easyloading.dart';
 import 'package:provider/provider.dart';
 
 class Login extends StatelessWidget {
@@ -44,16 +45,18 @@ class Login extends StatelessWidget {
     }
 
     void onPressedSignInButton() async {
+      EasyLoading.show(status: 'loading...');
       try {
         final String userId = await Provider.of<Auth>(context, listen: false)
                   .signIn(LoginData(email: _formData['email'],
                   password: _formData['password']));
         print(userId);
-
+        EasyLoading.dismiss();
         Navigator.pushNamed(context, AppRoutes.HOME);
 
       } catch (e) {
         print(e);
+        EasyLoading.dismiss();
         await _showMyDialog();
       }
     }
@@ -74,14 +77,13 @@ class Login extends StatelessWidget {
               flex: 2,
               child: Container(
                 decoration: new BoxDecoration(color: Colors.red),
-                child: Padding(
-                  padding: EdgeInsets.fromLTRB(20, 100, 20, 20),
                   child: Form(
                     key: _login,
-                      child: Column(
+                      child: ListView(
+                        padding: EdgeInsets.fromLTRB(20, 100, 20, 20),
                         children: <Widget>[
                           InputField('Email', (value) => _formData['email'] = value ),
-                          InputField('Senha', (value) => _formData['password'] = value ),
+                          InputField('Senha', (value) => _formData['password'] = value, true),
                           BloodButton('Entrar', onPressedSignInButton),
                           Container(
                             margin: EdgeInsets.only(top: 5),
@@ -105,7 +107,6 @@ class Login extends StatelessWidget {
                         ],
                       ),
                   ),
-                ),
               )
             )
           ],
