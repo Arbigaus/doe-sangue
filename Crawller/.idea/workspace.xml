@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="ddaf50ce-bcb3-4dd3-9cc8-1313873b5628" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/list.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../doe_sangue/lib/Provider/Users.dart" beforeDir="false" afterPath="$PROJECT_DIR$/../doe_sangue/lib/Provider/Users.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../doe_sangue/lib/Views/DonationPlaces/Components/Maps.dart" beforeDir="false" afterPath="$PROJECT_DIR$/../doe_sangue/lib/Views/DonationPlaces/Components/Maps.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../doe_sangue/lib/Views/FriendsList/FriendsList.dart" beforeDir="false" afterPath="$PROJECT_DIR$/../doe_sangue/lib/Views/FriendsList/FriendsList.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../doe_sangue/lib/Views/Home/Home.dart" beforeDir="false" afterPath="$PROJECT_DIR$/../doe_sangue/lib/Views/Home/Home.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../doe_sangue/lib/Views/Login/Login.dart" beforeDir="false" afterPath="$PROJECT_DIR$/../doe_sangue/lib/Views/Login/Login.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../doe_sangue/lib/Views/Profile/Profile.dart" beforeDir="false" afterPath="$PROJECT_DIR$/../doe_sangue/lib/Views/Profile/Profile.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../doe_sangue/lib/Views/Settings/Settings.dart" beforeDir="false" afterPath="$PROJECT_DIR$/../doe_sangue/lib/Views/Settings/Settings.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../doe_sangue/lib/main.dart" beforeDir="false" afterPath="$PROJECT_DIR$/../doe_sangue/lib/main.dart" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1lDQdjK1LofUPBQcSoMtzFW2JsD" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ddaf50ce-bcb3-4dd3-9cc8-1313873b5628" name="Default Changelist" comment="" />
+      <created>1607129273552</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1607129273552</updated>
+      <workItem from="1607129276737" duration="20000" />
+      <workItem from="1607171094678" duration="597000" />
+      <workItem from="1607184919171" duration="433000" />
+      <workItem from="1607186019557" duration="239000" />
+      <workItem from="1607190794534" duration="372000" />
+      <workItem from="1608314509376" duration="484000" />
+      <workItem from="1609008659695" duration="220000" />
+      <workItem from="1609011934544" duration="1690000" />
+      <workItem from="1609013895776" duration="3238000" />
+      <workItem from="1609081188162" duration="907000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

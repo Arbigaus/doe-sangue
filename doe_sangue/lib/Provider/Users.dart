@@ -1,7 +1,5 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter/material.dart';
-
-import 'Api.dart';
 import '../Models/User.dart';
 
 class Users with ChangeNotifier {
@@ -23,7 +21,7 @@ class Users with ChangeNotifier {
         .catchError((error) => throw(error));
   }
 
-  Future<User> getUserdata(String documentID) async {
+  Future<User> fetchUserdata(String documentID) async {
     try {
       DocumentSnapshot documentSnapshot = await _users.document(documentID).get();
       Map<String, dynamic> data = documentSnapshot.data;
@@ -44,8 +42,7 @@ class Users with ChangeNotifier {
 
   }
 
-  User getStorageUserData() {
+  User getUserData() {
     return userData;
   }
-
 }

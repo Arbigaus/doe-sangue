@@ -28,7 +28,7 @@ class UserDataComponent extends StatelessWidget {
               thickness: 2,
             ),
             UserDataListItem("Ultima Doação", userData.lastDonation ?? ""),
-            UserDataListItem("PRóxima Doação", userData.nextDonation ?? "")
+            UserDataListItem("Próxima Doação", userData.nextDonation ?? "")
           ],
         ),
       )

@@ -1,5 +1,6 @@
 import 'package:doe_sangue/Models/User.dart';
 import 'package:doe_sangue/Provider/Auth.dart';
+import 'package:doe_sangue/Provider/BloodBanks.dart';
 import 'package:doe_sangue/Provider/Users.dart';
 import 'package:doe_sangue/Routes/AppRoutes.dart';
 import 'package:doe_sangue/Views/DonationPlaces/DonationPlaces.dart';
@@ -29,12 +30,21 @@ class _HomeStatefulWidget extends State<Home> {
       final String userId = await Provider.of<Auth>(context, listen: false)
           .checkUserState();
 
-      userData = await Provider.of<Users>(context, listen: false)
-        .getUserdata(userId);
+      userData = Provider.of<Users>(context, listen: false)
+        .getUserData();
 
+      fetchBankList();
     } catch (e) {
       print(e);
       Navigator.pushNamed(context, AppRoutes.LOGIN);
+    }
+  }
+
+  void fetchBankList() async {
+    try {
+      await Provider.of<BloodBanks>(context, listen: false).fetchBankList();
+    } catch (e) {
+      print(e);
     }
   }
 

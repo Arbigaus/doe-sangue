@@ -12,7 +12,7 @@ class Profile extends StatelessWidget {
   Widget build(BuildContext context) {
     User userData;
     void getUserData() async {
-     userData = Provider.of<Users>(context, listen: false).getStorageUserData();
+     userData = Provider.of<Users>(context, listen: false).getUserData();
     }
     getUserData();
 

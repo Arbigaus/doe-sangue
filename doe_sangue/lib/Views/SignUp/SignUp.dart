@@ -8,6 +8,7 @@ import 'package:doe_sangue/Routes/AppRoutes.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/painting.dart';
+import 'package:flutter_easyloading/flutter_easyloading.dart';
 import 'package:provider/provider.dart';
 
 import 'components/SelectBlood.dart';
@@ -19,7 +20,6 @@ class SignUp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-
     createUser(String id) async {
       try {
         final user = User(
@@ -31,18 +31,23 @@ class SignUp extends StatelessWidget {
             weight: '72');
         final String createdUser = await Provider.of<Users>(context, listen: false)
             .createUser(user);
-        print(createdUser);
+
+        await Provider.of<Users>(context, listen: false).fetchUserdata(createdUser);
+
+        EasyLoading.dismiss();
       } catch (e) {
+        EasyLoading.dismiss();
         print(e);
       }
     }
 
     void onPressedSignUpButton() async {
+      EasyLoading.show(status: 'Cadastrando...');
       try {
         final String userId = await Provider.of<Auth>(context, listen: false)
             .register(LoginData(email: _formData['email'],
             password: _formData['password']));
-        createUser(userId);
+        await createUser(userId);
         Navigator.pushNamed(context, AppRoutes.HOME);
 
       } catch (e) {

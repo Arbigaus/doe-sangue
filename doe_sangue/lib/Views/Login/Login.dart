@@ -2,6 +2,7 @@ import 'package:doe_sangue/Components/BloodButton.dart';
 import 'package:doe_sangue/Components/InputField.dart';
 import 'package:doe_sangue/Models/LoginData.dart';
 import 'package:doe_sangue/Provider/Auth.dart';
+import 'package:doe_sangue/Provider/Users.dart';
 import 'package:doe_sangue/Routes/AppRoutes.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
@@ -45,12 +46,13 @@ class Login extends StatelessWidget {
     }
 
     void onPressedSignInButton() async {
-      EasyLoading.show(status: 'loading...');
+      EasyLoading.show(status: 'Entrando...');
       try {
         final String userId = await Provider.of<Auth>(context, listen: false)
                   .signIn(LoginData(email: _formData['email'],
                   password: _formData['password']));
-        print(userId);
+        await Provider.of<Users>(context, listen: false)
+          .fetchUserdata(userId);
         EasyLoading.dismiss();
         Navigator.pushNamed(context, AppRoutes.HOME);
 

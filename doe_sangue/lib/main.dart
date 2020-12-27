@@ -1,3 +1,4 @@
+import 'package:doe_sangue/Provider/BloodBanks.dart';
 import 'package:doe_sangue/Views/Home/Home.dart';
 import 'package:doe_sangue/Views/SignUp/SignUp.dart';
 import 'package:doe_sangue/Views/Login/Login.dart';
@@ -26,7 +27,7 @@ class MyApp extends StatelessWidget {
       providers: [
         Provider<Auth>(create: (ctx) => Auth()),
         Provider<Users>(create: (ctx) => Users()),
-        Provider<Users>(create: (ctx) => Users())
+        Provider<BloodBanks>(create: (ctx) => BloodBanks())
       ],
       child: MaterialApp(
         title: 'Doe Sangue',

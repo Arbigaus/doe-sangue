@@ -1,0 +1,960 @@
+{
+  "estados": [
+    {
+      "regiao": "Regi\u00e3o Norte",
+      "estados": [
+        {
+          "id": 19,
+          "nome": "Acre",
+          "regiao": "Regi\u00e3o Norte",
+          "unidades": [
+            {
+              "title": "Hemoacre",
+              "the_content": "Av. Get\u00falio Vargas, 2787 - Vila Ivonete - Rio Branco, Acre - Cep:69914-500",
+              "map": "https:\/\/www.google.com.br\/maps\/place\/Avenida+Get\u00falio+Vargas,+2787+-+Bosque,+Rio+Branco+-+AC,+Brazil\/@-9.9537615,-67.8188671",
+              "tel": "(68)32481377  ",
+              "cep": "69914-500"
+            }
+          ]
+        },
+        {
+          "id": 21,
+          "nome": "Amap\u00e1",
+          "regiao": "Regi\u00e3o Norte",
+          "unidades": [
+            {
+              "title": "Hemoap",
+              "the_content": "Av Fab, 0 - Central - Macapa, Amap\u00e1 - Cep:68900-073",
+              "map": "https:\/\/www.google.com.br\/maps\/place\/Avenida+Fab,+0+-+Santa+Rita,+Macap\u00e1+-+AP,+68901-259,+Brazil\/@0.0400864,-51.0498131",
+              "tel": "(96)32126139 ",
+              "cep": "68900-073"
+            }
+          ]
+        },
+        {
+          "id": 22,
+          "nome": "Amazonas",
+          "regiao": "Regi\u00e3o Norte",
+          "unidades": [
+            {
+              "title": "Fhemoam",
+              "the_content": "Av Constantino Nery, 4397 - Chapada - Manaus, Amazonas - Cep:69050-000",
+              "map": "https:\/\/www.google.com.br\/maps\/place\/Avenida+Constantino+Nery,+4397+-+Chapada,+Manaus+-+AM,+Brazil\/@-3.0859786,-60.0266938",
+              "tel": "(92)36550167  <br> (92)36565180",
+              "cep": "69050-000"
+            }
+          ]
+        },
+        {
+          "id": 32,
+          "nome": "Par\u00e1",
+          "regiao": "Regi\u00e3o Norte",
+          "unidades": [
+            {
+              "title": "Funda\u00e7\u00e3o Hemopa",
+              "the_content": "Travessa Padre Eutiquio, 2109 - Batista Campos - Belem, Par\u00e1 - Cep:66033-000",
+              "map": "https:\/\/www.google.com.br\/maps\/place\/Travessa+Padre+Eut\u00edquio,+2109+-+Batista+Campos,+Bel\u00e9m+-+PA,+66023-710,+Brazil\/@-1.4630392,-48.487432",
+              "tel": "(91)32429100 Ramal:241 <br> (91)32429100 Ramal:239 <br> (91)32235933 ",
+              "cep": "66033-000"
+            }
+          ]
+        },
+        {
+          "id": 39,
+          "nome": "Rond\u00f4nia",
+          "regiao": "Regi\u00e3o Norte",
+          "unidades": [
+            {
+              "title": "Fhemeron",
+              "the_content": "R Benedito De S Brito, 0 Fhemeron - Industrial - Porto Velho, Rond\u00f4nia - Cep:76821-080",
+              "map": "https:\/\/www.google.com.br\/maps\/place\/Rua+Benedito+de+Souza+Brito,+0,+Porto+Velho+-+RO,+Brazil\/@-8.7376896,-63.8907149",
+              "tel": "(69)32165485 <br> (69)32165487 <br> (69)32162204 ",
+              "cep": "76821-080"
+            },
+            {
+              "title": "Uct De Ji Paran\u00e1",
+              "the_content": "R Vilagran Cabrita, 1440 - Centro - Ji-parana, Rond\u00f4nia - Cep:76900-044",
+              "map": "https:\/\/www.google.com.br\/maps\/place\/Ji-Paran\u00e1+-+RO,+Brazil\/@-10.8781412,-61.9326728",
+              "tel": "(69)34226762 <br> (69)34211615",
+              "cep": "76900-044"
+            }
+          ]
+        },
+        {
+          "id": 40,
+          "nome": "Roraima",
+          "regiao": "Regi\u00e3o Norte",
+          "unidades": [
+            {
+              "title": "Hemocentro De Roraima",
+              "the_content": "Av Brg Eduardo Gomes, 3418 - Aeroporto - Boa Vista, Roraima - Cep:69304-015",
+              "map": "https:\/\/www.google.com.br\/maps\/place\/Avenida+Brigadeiro+Eduardo+Gomes,+3418+-+Aparecida,+Boa+Vista+-+RR,+Brazil\/@2.8315263,-60.6896838",
+              "tel": "(95)21210883 <br> (95)21210859",
+              "cep": "69304-015"
+            }
+          ]
+        },
+        {
+          "id": 43,
+          "nome": "Tocantins",
+          "regiao": "Regi\u00e3o Norte",
+          "unidades": [
+            {
+              "title": "Unidade De Coleta De Transfus\u00e3o Augustin\u00f3polis",
+              "the_content": "Rua Anicuns, 200 - Centro - Augustin\u00f3polis, Tocantins - Cep:77960-000",
+              "map": "https:\/\/www.google.com.br\/maps\/place\/R.+Anicuns,+200,+Augustin%C3%B3polis+-+TO,+77960-000\/@-5.4655082,-47.8814471,17z\/data=!4m7!1m4!3m3!1s0x92c5112aa14e09af:0xa59820129317eb01!2sR.+Anicuns,+200,+Augustin%C3%B3polis+-+TO,+77960-000!3b1!3m1!1s0x92c5112aa14e09af:0xa59820129317eb01",
+              "tel": "(63)3456-1309\/(63)3456-1308",
+              "cep": "77960-000"
+            },
+            {
+              "title": "Hemocentro Coordenador De Palmas",
+              "the_content": "301 Norte, Av. Ns 01, Conj. 02 Lote 01, 0 - Plano Diretor Norte - Palmas, Tocantins - Cep:77015-200",
+              "map": "https:\/\/www.google.com.br\/maps\/place\/Quadra+301+Norte+Rua+NS+A,+1+-+Plano+Diretor+Norte,+Palmas+-+TO,+Brazil\/@-10.1711902,-48.3346931",
+              "tel": "(63)32183287",
+              "cep": "77015-200"
+            },
+            {
+              "title": "Hemocentro Regional De Aragua\u00edna",
+              "the_content": "R Treze De Maio, 1336 - Setor Central - Araguaina, Tocantins - Cep:77803-130",
+              "map": "https:\/\/www.google.com.br\/maps\/place\/Rua+Treze+de+Maio,+1336+-+Vila+Rosario,+Aragua\u00edna+-+TO,+Brazil\/@-7.1931538,-48.2098721",
+              "tel": "(63)34112917<br>(63)34152900 <br>(63)34138100",
+              "cep": "77803-130"
+            },
+            {
+              "title": "N\u00facleo De Hemoterapia De Gurupi",
+              "the_content": "R Quatorze De Novembro, 0 Qd: 117 Lote:18 - Setor Central - Gurupi, Tocantins - Cep:77405-070",
+              "map": "https:\/\/www.google.com.br\/maps\/place\/Rua+Quatorze+de+Novembro+-+Setor+Central,+Gurupi+-+TO,+Brazil\/@-11.7293155,-49.0612066",
+              "tel": "(63)32122237",
+              "cep": "77405-070"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "regiao": "Regi\u00e3o Nordeste",
+      "estados": [
+        {
+          "id": 20,
+          "nome": "Alagoas",
+          "regiao": "Regi\u00e3o Nordeste",
+          "unidades": [
+            {
+              "title": "Hemocentro De Alagoas &#8211; Hemoal",
+              "the_content": "Av. Jorge De Lima, 58 - Trapiche - Maceio, Alagoas - Cep:57010-300",
+              "map": "https:\/\/www.google.com.br\/maps\/place\/Rua+Doutor+Jorge+de+Lima,+58+-+Trapiche+da+Barra,+Macei\u00f3+-+AL,+57010-382,+Brazil\/@-9.672467,-35.7582896",
+              "tel": "(82)33152107 ",
+              "cep": "57010-300"
+            }
+          ]
+        },
+        {
+          "id": 23,
+          "nome": "Bahia",
+          "regiao": "Regi\u00e3o Nordeste",
+          "unidades": [
+            {
+              "title": "Hemoba",
+              "the_content": "Ld Do Hospital Geral, 0 2\u00ba Andar - Brotas - Salvador, Bahia - Cep:40286-240",
+              "map": "https:\/\/www.google.com.br\/maps\/place\/Ladeira+do+Hospital+Geral,+0+-+Brotas,+Salvador+-+BA,+Brazil\/@-12.9976148,-38.4922132",
+              "tel": "(71)31165600 ",
+              "cep": "40286-240"
+            }
+          ]
+        },
+        {
+          "id": 24,
+          "nome": "Cear\u00e1",
+          "regiao": "Regi\u00e3o Nordeste",
+          "unidades": [
+            {
+              "title": "Hemoce",
+              "the_content": "Av. Jos\u00e9 Bastos, 3390 Rodolfo Te\u00f3filo - Fortaleza - CE - Cep:60431-086",
+              "map": "https:\/\/www.google.com\/maps\/place\/Hemoce\/@-3.7488402,-38.552104,17z\/data=!3m1!4b1!4m5!3m4!1s0x7c7496a9736322b:0x5d58058346d9f76!8m2!3d-3.7488402!4d-38.5499153",
+              "tel": "(85)31012296 Ramal:211",
+              "cep": "60431-086"
+            }
+          ]
+        },
+        {
+          "id": 28,
+          "nome": "Maranh\u00e3o",
+          "regiao": "Regi\u00e3o Nordeste",
+          "unidades": [
+            {
+              "title": "Centro De Hematologia E Hemoterapia Do Maranh\u00e3o",
+              "the_content": "R Cinco De Janeiro, 0 - Jordoa - Sao Luis, Maranh\u00e3o - Cep:65040-450",
+              "map": "https:\/\/www.google.com.br\/maps\/place\/Rua+Cinco+de+Janeiro,+0+-+J\u00f3rdoa,+S\u00e3o+Lu\u00eds+-+MA,+Brazil\/@-2.5448137,-44.2655918",
+              "tel": "(98)32161156  <br> (98)32161137  <br> (98)32161134 ",
+              "cep": "65040-450"
+            }
+          ]
+        },
+        {
+          "id": 33,
+          "nome": "Para\u00edba",
+          "regiao": "Regi\u00e3o Nordeste",
+          "unidades": [
+            {
+              "title": "Hemocentro Coordenador Para\u00edba",
+              "the_content": "Av D Pedro Ii, 1119 - Centro - Joao Pessoa, Para\u00edba - Cep:58013-420",
+              "map": "https:\/\/www.google.com.br\/maps\/place\/Avenida+Dom+Pedro+II,+1119+-+Torre,+Jo\u00e3o+Pessoa+-+PB,+58040-440,+Brazil\/@-7.1254229,-34.8739316",
+              "tel": "(83)32185690 ",
+              "cep": "58013-420"
+            }
+          ]
+        },
+        {
+          "id": 35,
+          "nome": "Pernambuco",
+          "regiao": "Regi\u00e3o Nordeste",
+          "unidades": [
+            {
+              "title": "Funda\u00e7\u00e3o De Hematologia E Hemoterapia De Pernambuco",
+              "the_content": "Rua Joaquim Nabuco, 171 - Gracas - Recife, Pernambuco - Cep:52011-100",
+              "map": "https:\/\/www.google.com.br\/maps\/place\/Rua+Joaquim+Nabuco,+171+-+Santana,+Recife+-+PE,+Brazil\/@-8.052668,-34.8979476",
+              "tel": "(81)31824600 <br> (81)31824648 <br> (81)31824653",
+              "cep": "52011-100"
+            },
+            {
+              "title": "Hemocentro Regional Caruaru",
+              "the_content": "Av Oswaldo Cruz, 0 - Mauricio De Nassau - Caruaru, Pernambuco - Cep:55012-040",
+              "map": "https:\/\/www.google.com.br\/maps\/place\/Avenida+Oswaldo+Cruz,+0+-+Maur\u00edcio+de+Nassau,+Caruaru+-+PE,+Brazil\/@-8.2809201,-35.9726322",
+              "tel": "(81)37199565 <br> (81)37199570 ",
+              "cep": "55012-040"
+            },
+            {
+              "title": "Hemocentro Regional De Garanhuns",
+              "the_content": "Av Goncalves Maia, 0 - Heliopolis - Garanhuns, Pernambuco - Cep:55296-270",
+              "map": "https:\/\/www.google.com.br\/maps\/place\/Avenida+Gon\u00e7alves+Maia+-+Heli\u00f3polis,+Garanhuns+-+PE,+Brazil\/@-8.885081,-36.4815707",
+              "tel": "(87)37618520 <br> (87)37618530 ",
+              "cep": "55296-270"
+            },
+            {
+              "title": "N\u00facelo De Hemoterapia Regional Arcoverde",
+              "the_content": "Av Joaquim Nabuco, 0 - Centro - Arcoverde, Pernambuco - Cep:56506-470",
+              "map": "https:\/\/www.google.com.br\/maps\/place\/Avenida+Joaquim+Nabuco,+0+-+Centro,+Arcoverde+-+PE,+56505-150,+Brazil\/@-8.4176126,-37.0584723",
+              "tel": "(87)31821462 ",
+              "cep": "56506-470"
+            },
+            {
+              "title": "N\u00facleo De Hemoterapia Regional Ouricuri",
+              "the_content": "Rua Ulisses Guimar\u00e3es, 0 - Centro - Ouricuri, Pernambuco - Cep:56200-970",
+              "map": "https:\/\/www.google.com.br\/maps\/place\/Rua+Ulisses+Guimar\u00e3es,+0+-+Centro,+Ouricuri+-+PE,+56200-000,+Brazil\/@-7.8812795,-40.0840237",
+              "tel": "(87)31821086 ",
+              "cep": "56200-970"
+            },
+            {
+              "title": "N\u00facleo De Hemoterapia Regional Petrolina",
+              "the_content": "R Pacifico Da Luz, 0 - Centro - Petrolina, Pernambuco - Cep:56304-010",
+              "map": "https:\/\/www.google.com.br\/maps\/place\/Rua+Pac\u00edfico+da+Luz,+0+-+Centro,+Petrolina+-+PE,+56304-010,+Brazil\/@-9.3985164,-40.5009372",
+              "tel": "(87)31825866 ",
+              "cep": "56304-010"
+            },
+            {
+              "title": "N\u00facleo De Hemoterapia Regional Salgueiro",
+              "the_content": "Rua Joaquim Gondim, 65 - Centro - Salgueiro, Pernambuco - Cep:56000-970",
+              "map": "https:\/\/www.google.com.br\/maps\/place\/Salgueiro+-+PE,+Brazil\/@-8.0725066,-39.1268089",
+              "tel": "(87)31820804 <br> (87)31820343",
+              "cep": "56000-970"
+            },
+            {
+              "title": "N\u00facleo De Hemoterapia Regional Serra Talhada",
+              "the_content": "R Joaquim Godoy, 0 - Nossa Senhora Da Penha - Serra Talhada, Pernambuco - Cep:56912-450",
+              "map": "https:\/\/www.google.com.br\/maps\/place\/Rua+Joaquim+Godoy,+0+-+Nossa+Senhora+da+Penha,+Serra+Talhada+-+PE,+Brazil\/@-7.9890534,-38.2959533",
+              "tel": "(87)38319323 <br> (087)38319330 <br> (87)38319328 ",
+              "cep": "56912-450"
+            }
+          ]
+        },
+        {
+          "id": 36,
+          "nome": "Piau\u00ed",
+          "regiao": "Regi\u00e3o Nordeste",
+          "unidades": [
+            {
+              "title": "Hemopi",
+              "the_content": "Rua 1\u00ba De Maio, 235 - Centro\/sul - Teresina, Piau\u00ed - Cep:64001-430",
+              "map": "https:\/\/www.google.com.br\/maps\/place\/Rua+1\u00ba+de+Maio,+235+-+Margarida+Galvan,+Dois+Vizinhos+-+PR,+85660-000,+Brazil\/@-25.7280799,-53.0592741",
+              "tel": "(86)32218319 <br> (86)32218320",
+              "cep": "64001-430"
+            }
+          ]
+        },
+        {
+          "id": 37,
+          "nome": "Rio Grande Do Norte",
+          "regiao": "Regi\u00e3o Nordeste",
+          "unidades": [
+            {
+              "title": "Hemonorte",
+              "the_content": "Av Alm Alexandrino De Alencar, 1800 - Tirol - Natal, Rio Grande Do Norte - Cep:59015-350",
+              "map": "https:\/\/www.google.com.br\/maps\/place\/Avenida+Almirante+Alexandrino+de+Alencar,+1800+-+Tirol,+Natal+-+RN,+Brazil\/@-5.8049797,-35.2085223",
+              "tel": "(84)99129432 <br> (84)32326724 <br> (84)32326703",
+              "cep": "59015-350"
+            },
+            {
+              "title": "Hemovida",
+              "the_content": "Av Nilo Pecanha, 199 - Petropolis - Natal, Rio Grande Do Norte - Cep:59012-300",
+              "map": "https:\/\/www.google.com.br\/maps\/place\/Avenida+Nilo+Pe\u00e7anha,+199+-+Petr\u00f3polis,+Natal+-+RN,+59012-300,+Brazil\/@-5.7814604,-35.1970392",
+              "tel": "(84)32024289 <br> (84)32025366 <br> (84)99049200",
+              "cep": "59012-300"
+            }
+          ]
+        },
+        {
+          "id": 42,
+          "nome": "Sergipe",
+          "regiao": "Regi\u00e3o Nordeste",
+          "unidades": [
+            {
+              "title": "Hemose",
+              "the_content": "Av Pres Tancredo Neves, 0 C. Adm. Gov Augusto - Capucho - Aracaju, Sergipe - Cep:49080-470",
+              "map": "https:\/\/www.google.com.br\/maps\/place\/Avenida+Presidente+Tancredo+Neves,+0+-+Jabutiana,+Aracaju+-+SE,+Brazil\/@-10.9256341,-37.0804655",
+              "tel": "(79)32258039 <br> (79)32258000 <br> (79)32593195 <br>",
+              "cep": "49080-470"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "regiao": "Regi\u00e3o Centro-Oeste",
+      "estados": [
+        {
+          "id": 25,
+          "nome": "Distrito Federal",
+          "regiao": "Regi\u00e3o Centro-Oeste",
+          "unidades": [
+            {
+              "title": "Funda\u00e7\u00e3o Hemocentro De Bras\u00edlia",
+              "the_content": "Smhn, 03 Qd.03 Conj.a Bloco03 - Asa Norte - Brasilia, Distrito Federal - Cep:70710-908",
+              "map": "https:\/\/www.google.com.br\/maps\/place\/Hospital+Regional+da+Asa+Norte+-+Bras\u00edlia,+Bras\u00edlia+-+DF,+Brazil\/@-15.7856713,-47.8828645",
+              "tel": "(61)33274447  <br> (61)33274413",
+              "cep": "70710-908"
+            }
+          ]
+        },
+        {
+          "id": 27,
+          "nome": "Goi\u00e1s",
+          "regiao": "Regi\u00e3o Centro-Oeste",
+          "unidades": [
+            {
+              "title": "Hemocentro De Goi\u00e1s",
+              "the_content": "Av Anhanguera, 5195 - Setor Coimbra - Goiania, Goi\u00e1s - Cep:74535-010",
+              "map": "https:\/\/www.google.com.br\/maps\/place\/Avenida+Anhanguera,+5195+-+Setor+Central,+Goi\u00e2nia+-+GO,+74040-010,+Brazil\/@-16.6753041,-49.2593239",
+              "tel": "(62)3201-4570 <br> (62)3201-4101",
+              "cep": "74535-010"
+            }
+          ]
+        },
+        {
+          "id": 29,
+          "nome": "Mato Grosso",
+          "regiao": "Regi\u00e3o Centro-Oeste",
+          "unidades": [
+            {
+              "title": "Mt Hemocentro",
+              "the_content": "R Treze De Junho, 1055 - Porto - Cuiaba, Mato Grosso - Cep:78025-000",
+              "map": "https:\/\/www.google.com.br\/maps\/place\/Rua+13+de+Junho,+1055+-+Centro+Sul,+Cuiab\u00e1+-+MT,+Brazil\/@-15.6054899,-56.1015682",
+              "tel": "(65)33210351  <br> (65)36230044 ",
+              "cep": "78025-000"
+            }
+          ]
+        },
+        {
+          "id": 30,
+          "nome": "Mato Grosso Do Sul",
+          "regiao": "Regi\u00e3o Centro-Oeste",
+          "unidades": [
+            {
+              "title": "Hemosul",
+              "the_content": "Av Fernando C Da Costa, 1304 - Centro - Campo Grande, Mato Grosso Do Sul - Cep:79004-310",
+              "map": "https:\/\/www.google.com.br\/maps\/place\/Avenida+Fernando+Corr\u00eaa+da+Costa,+1304+-+Vila+Carvalho,+Campo+Grande+-+MS,+79004-311,+Brazil\/@-20.4684173,-54.6090172",
+              "tel": "(67)33121500  <br> (67)33121539 ",
+              "cep": "79004-310"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "regiao": "Regi\u00e3o Sudeste",
+      "estados": [
+        {
+          "id": 26,
+          "nome": "Esp\u00edrito Santo",
+          "regiao": "Regi\u00e3o Sudeste",
+          "unidades": [
+            {
+              "title": "Hemoes",
+              "the_content": "Av Mal Campos, 1468 - Maru\u00edpe - Vitoria, Esp\u00edrito Santo - Cep:29045-460",
+              "map": "https:\/\/www.google.com.br\/maps\/place\/Avenida+Marechal+Campos,+1468+-+Nazareth,+Vit\u00f3ria+-+ES,+29047-100,+Brazil\/@-20.2979169,-40.3169339",
+              "tel": "(27)36367925 <br> (27)36367920",
+              "cep": "29045-460"
+            }
+          ]
+        },
+        {
+          "id": 31,
+          "nome": "Minas Gerais",
+          "regiao": "Regi\u00e3o Sudeste",
+          "unidades": [
+            {
+              "title": "N\u00facleo Regional De Patos De Minas",
+              "the_content": "R Maj Gote, 1255 - Centro - Patos De Minas, Minas Gerais - Cep:38700-001",
+              "map": "https:\/\/www.google.com.br\/maps\/place\/Rua+Major+Gote,+1255+-+Centro,+Patos+de+Minas+-+MG,+Brazil\/@-18.5941011,-46.5149362",
+              "tel": "(34)38229646 ",
+              "cep": "38700-001"
+            },
+            {
+              "title": "Nucleo Regional De Ponte Nova",
+              "the_content": "R Carlos Gomes, 17 - Esplanada - Ponte Nova, Minas Gerais - Cep:35430-069",
+              "map": "https:\/\/www.google.com.br\/maps\/place\/Rua+Carlos+Gomes,+17+-+Esplanada,+Ponte+Nova+-+MG,+35430-069,+Brazil\/@-20.4186282,-42.9131912",
+              "tel": "(31)38173212 ",
+              "cep": "35430-069"
+            },
+            {
+              "title": "Nucleo Regional De Pouso Alegre",
+              "the_content": "R Comendador Jos\u00e9 Garcia, 825 - Centro - Pouso Alegre, Minas Gerais - Cep:37550-000",
+              "map": "https:\/\/www.google.com.br\/maps\/place\/Rua+Comendador+Jos\u00e9+Garc\u00eda,+825+-+Nova+Pouso+Alegre,+Pouso+Alegre+-+MG,+37550-000,+Brazil\/@-22.2261348,-45.9295297",
+              "tel": "(35)34499900 ",
+              "cep": "37550-000"
+            },
+            {
+              "title": "Nucleo Regional De S\u00e3o Jo\u00e3o Del Rei",
+              "the_content": "R Pref Nascimento Teixeira, 175 - Segredo - Sao Joao Del Rei, Minas Gerais - Cep:36307-404",
+              "map": "https:\/\/www.google.com.br\/maps\/place\/Rua+Prefeito+Nascimento+Teixeira,+175+-+Segredo,+S\u00e3o+Jo\u00e3o+Del+Rei+-+MG,+36307-404,+Brazil\/@-21.1388677,-44.25582",
+              "tel": "(32)33713389 ",
+              "cep": "36307-404"
+            },
+            {
+              "title": "Nucleo Regional De Sete Lagoas",
+              "the_content": "Av Renato Azeredo, 3170 - Canaa - Sete Lagoas, Minas Gerais - Cep:35700-312",
+              "map": "https:\/\/www.google.com.br\/maps\/place\/Avenida+Doutor+Renato+Azeredo,+3170+-+Cana\u00e3,+Sete+Lagoas+-+MG,+Brazil\/@-19.4624525,-44.2294823",
+              "tel": "(31)37745074 ",
+              "cep": "35700-312"
+            },
+            {
+              "title": "Posto De Coleta De Betim Hemominas",
+              "the_content": "Rua Salvador Gon\u00e7alves Diniz, 191 - Baixada - Betim, Minas Gerais - Cep:36900-000",
+              "map": "https:\/\/www.google.com.br\/maps\/place\/Betim+-+MG,+Brazil\/@-19.9673078,-44.2011904",
+              "tel": "(31)35951010 ",
+              "cep": "36900-000"
+            },
+            {
+              "title": "Unidade De Coleta E Transfus\u00e3o De Al\u00e9m Para\u00edba Hemominas",
+              "the_content": "Rua Felizardo Esquerdo, 45 - Ilha Recreio - Alem Paraiba, Minas Gerais - Cep:36660-000",
+              "map": "https:\/\/www.google.com.br\/maps\/place\/Al\u00e9m+Para\u00edba+-+MG,+Brazil\/@-21.8833835,-42.6985095",
+              "tel": "(32)34624597 ",
+              "cep": "36660-000"
+            },
+            {
+              "title": "Unidade De Coleta E Transfus\u00e3o Hjk",
+              "the_content": "R Dr Cristiano Rezende, 2505 - Flavio Marques Lisboa - Belo Horizonte, Minas Gerais - Cep:30620-470",
+              "map": "https:\/\/www.google.com.br\/maps\/place\/Rua+Doutor+Cristiano+Rezende,+2505+-+Bonsucesso,+Belo+Horizonte+-+MG,+30622-020,+Brazil\/@-19.9892591,-43.9966115",
+              "tel": "(31)33908014 ",
+              "cep": "30620-470"
+            },
+            {
+              "title": "Funda\u00e7\u00e3o Hemominas &#8211; Administra\u00e7\u00e3o Central",
+              "the_content": "R Gr Para, 822 - Funcionarios - Belo Horizonte, Minas Gerais - Cep:30150-341",
+              "map": "https:\/\/www.google.com.br\/maps\/place\/Rua+Gr\u00e3o+Par\u00e1,+822+-+Funcion\u00e1rios,+Belo+Horizonte+-+MG,+Brazil\/@-19.929638,-43.9233597",
+              "tel": "(31)37687527  <br> (31)37687499 ",
+              "cep": "30150-341"
+            },
+            {
+              "title": "Funda\u00e7\u00e3o Hemominas De Belo Horizonte",
+              "the_content": "Al Ezequiel Dias, 321 - Centro - Belo Horizonte, Minas Gerais - Cep:30130-110",
+              "map": "https:\/\/www.google.com.br\/maps\/place\/Alameda+Ezequiel+Dias,+321+-+Centro,+Belo+Horizonte+-+MG,+Brazil\/@-19.9248522,-43.9319432",
+              "tel": "(31)37684562  <br> (31)37684603 ",
+              "cep": "30130-110"
+            },
+            {
+              "title": "Hemocentro Regional De Juiz De Fora",
+              "the_content": "R Br De Cataguases, 0 - Santa Helena - Juiz De Fora, Minas Gerais - Cep:36015-370",
+              "map": "https:\/\/www.google.com.br\/maps\/place\/Rua+Bar\u00e3o+de+Cataguases,+0+-+Santa+Helena,+Juiz+de+Fora+-+MG,+Brazil\/@-21.7533412,-43.3511177",
+              "tel": "(32)32573100 ",
+              "cep": "36015-370"
+            },
+            {
+              "title": "Hemocentro Regional De Montes Claros",
+              "the_content": "Rua Urbino Viana, 640 - Vila Guilhermina - Montes Claros, Minas Gerais - Cep:36900-000",
+              "map": "https:\/\/www.google.com.br\/maps\/place\/Rua+Urbino+Viana,+640+-+Morrinhos,+Montes+Claros+-+MG,+39400-729,+Brazil\/@-16.7318827,-43.871102",
+              "tel": "(38)32187810 ",
+              "cep": "36900-000"
+            },
+            {
+              "title": "Hemocentro Regional De Uberaba",
+              "the_content": "Av Getulio Guarita, 250 - Nossa Senhora Da Abadia - Uberaba, Minas Gerais - Cep:38025-440",
+              "map": "https:\/\/www.google.com.br\/maps\/place\/Rua+Get\u00falio+Guarit\u00e1,+250+-+Nossa+Senhora+da+Abadia,+Uberaba+-+MG,+38025-440,+Brazil\/@-19.7568472,-47.9306543",
+              "tel": "(34)33125077 ",
+              "cep": "38025-440"
+            },
+            {
+              "title": "Hemocentro Regional De Uberl\u00e2ndia",
+              "the_content": "Av Levino De Souza, 1845 - Umuarama - Uberlandia, Minas Gerais - Cep:38405-322",
+              "map": "https:\/\/www.google.com.br\/maps\/place\/Avenida+Levino+de+Souza,+1845+-+Umuarama,+Uberl\u00e2ndia+-+MG,+38405-322,+Brazil\/@-18.8810847,-48.2610289",
+              "tel": "(34)32228801 ",
+              "cep": "38405-322"
+            },
+            {
+              "title": "Hemominas De Governador Valadares",
+              "the_content": "R Rui Barbosa, 149 - Centro - Governador Valadares, Minas Gerais - Cep:35020-510",
+              "map": "https:\/\/www.google.com.br\/maps\/place\/Rua+Rui+Barbosa,+149+-+Centro,+Governador+Valadares+-+MG,+35020-510,+Brazil\/@-18.8541135,-41.939479",
+              "tel": "(33)32125800 ",
+              "cep": "35020-510"
+            },
+            {
+              "title": "Hemominas De Ituiutaba",
+              "the_content": "Av. 5 A, 0 - Progresso - Ituiutaba, Minas Gerais - Cep:38302-010",
+              "map": "https:\/\/www.google.com.br\/maps\/place\/Rua+A,+0+-+Lagoa+Azul,+Ituiutaba+-+MG,+Brazil\/@-18.9739665,-49.4857075",
+              "tel": "(34)32613555 ",
+              "cep": "38302-010"
+            },
+            {
+              "title": "Hemominas Passos",
+              "the_content": "R Dr Jose L De Barros, 313 - Belo Horizonte - Passos, Minas Gerais - Cep:37900-030",
+              "map": "https:\/\/www.google.com.br\/maps\/place\/Rua+Doutor+Jos\u00e9+Lemos+de+Barros,+313+-+Muarama,+Passos+-+MG,+Brazil\/@-20.7265681,-46.6120678",
+              "tel": "(35)35224202 ",
+              "cep": "37900-030"
+            },
+            {
+              "title": "Hemominas Po\u00e7os De Caldas",
+              "the_content": "Av Jose R Prezia, 303 - Jardim Dos Estados - Pocos De Caldas, Minas Gerais - Cep:37701-102",
+              "map": "https:\/\/www.google.com.br\/maps\/place\/Avenida+Jos\u00e9+Rem\u00edgio+Prezia,+303+-+Jardim+dos+Estados,+Po\u00e7os+de+Caldas+-+MG,+Brazil\/@-21.7847751,-46.5529022",
+              "tel": "(35)37129012 ",
+              "cep": "37701-102"
+            },
+            {
+              "title": "N\u00facleo Regional De Diamantina Hemominas",
+              "the_content": "Rua Da Gl\u00f3ria, 469 Fundos - Centro - Diamantina, Minas Gerais - Cep:39100-000",
+              "map": "https:\/\/www.google.com.br\/maps\/place\/Rua+Diamantina,+469+-+Alvorada,+Contagem+-+MG,+32041-480,+Brazil\/@-19.9049196,-44.076178",
+              "tel": "(38)35313762 ",
+              "cep": "39100-000"
+            },
+            {
+              "title": "N\u00facleo Regional De Manhua\u00e7u",
+              "the_content": "Rua Frederico Dolabela, 289 - Baixada - Manhuacu, Minas Gerais - Cep:36900-000",
+              "map": "https:\/\/www.google.com.br\/maps\/place\/Manhua\u00e7u+-+MG,+Brazil\/@-20.2555875,-42.030947",
+              "tel": "(33)33311021 ",
+              "cep": "36900-000"
+            }
+          ]
+        },
+        {
+          "id": 9,
+          "nome": "Rio de Janeiro",
+          "regiao": "Regi\u00e3o Sudeste",
+          "unidades": [
+            {
+              "title": "N\u00facleo de Hemoterapia do Hospital Universit\u00e1rio Pedro Ernesto &#8211; UERJ",
+              "the_content": "Boulevard 28 de setembro, 109 - Vila Isabel - Rio de Janeiro, RJ - CEP 20551-030",
+              "map": "https:\/\/goo.gl\/maps\/NdLdQ4zHvTS2",
+              "tel": "(21)2868-8134",
+              "cep": "20551-030"
+            },
+            {
+              "title": "Banco De Sangue Do Instituto Nacional De C\u00e2ncer Jos\u00e9 Alencar Gomes Da Silva",
+              "the_content": "Pra\u00e7a Cruz Vermelha, 23 2\u00ba Andar - Centro - Rio De Janeiro, Rio De Janeiro - Cep:20230-130",
+              "map": "https:\/\/www.google.com.br\/maps\/place\/Pra\u00e7a+Cruz+Vermelha,+23+-+Centro,+Rio+de+Janeiro+-+RJ,+20230-130,+Brazil\/@-22.9116513,-43.1884478",
+              "tel": "(21) 3207-1580",
+              "cep": "20230-130"
+            }
+          ]
+        },
+        {
+          "id": 10,
+          "nome": "S\u00e3o Paulo",
+          "regiao": "Regi\u00e3o Sudeste",
+          "unidades": [
+            {
+              "title": "Hemocentro De Ribeir\u00e3o Preto",
+              "the_content": "R Ten Catao Roxo, 2501 - Vila Monte Alegre - Ribeirao Preto, S\u00e3o Paulo - Cep:14051-140",
+              "map": "https:\/\/www.google.com.br\/maps\/place\/Rua+Tenente+Cat\u00e3o+Roxo,+2501+-+Vila+Monte+Alegre,+Ribeir\u00e3o+Preto+-+SP,+Brazil\/@-21.1605017,-47.8494722",
+              "tel": "(16)21019300 <br> (16)21019663",
+              "cep": "14051-140"
+            },
+            {
+              "title": "Hemon\u00facleo De  Santos",
+              "the_content": "Rua Oswaldo Cruz, 197 - Boqueirao - Santos, S\u00e3o Paulo - Cep:11045-904",
+              "map": "https:\/\/www.google.com.br\/maps\/place\/Rua+Oswaldo+Cruz,+197+-+Boqueir\u00e3o,+Santos+-+SP,+Brazil\/@-23.9624002,-46.3215602",
+              "tel": "(13)32021428",
+              "cep": "11045-904"
+            },
+            {
+              "title": "Hemon\u00facleo De Bauru",
+              "the_content": "R Mns Claro, 888  - Centro - Bauru, S\u00e3o Paulo - Cep:17015-130",
+              "map": "https:\/\/www.google.com.br\/maps\/place\/Rua+Monsenhor+Claro,+8-88+-+Centro,+Bauru+-+SP,+Brazil\/@-22.3306151,-49.0761128",
+              "tel": "(14)32344412 Ramal:",
+              "cep": "17015-130"
+            },
+            {
+              "title": "Hospital Amaral Carvalho",
+              "the_content": "R Da Silveria, 150 - Chacara Braz Miraglia - Jau, S\u00e3o Paulo - Cep:17210-080",
+              "map": "https:\/\/www.google.com.br\/maps\/place\/Rua+Don\u00e1+Silv\u00e9ria,+150+-+Ch\u00e1cara+Braz+Miraglia,+Ja\u00fa+-+SP,+Brazil\/@-22.2916715,-48.5500654",
+              "tel": "(14)36021200",
+              "cep": "17210-080"
+            },
+            {
+              "title": "Hospital De Cancer De Barretos",
+              "the_content": "R Antenor D Vilela, 1331 - Doutor Paulo Prata - Barretos, S\u00e3o Paulo - Cep:14784-400",
+              "map": "https:\/\/www.google.com.br\/maps\/place\/Rua+Antenor+Duarte+Vil\u00e9la,+1331+-+Doutor+Paulo+Prata,+Barretos+-+SP,+Brazil\/@-20.5889928,-48.5695037",
+              "tel": "(17)33216600 Ramal:7114 <br> (17)33216600 Ramal:6753 <br> (17)33216600 Ramal:7115 ",
+              "cep": "14784-400"
+            },
+            {
+              "title": "Hospital Regional De Assis",
+              "the_content": "Pc Dr Symphronio A Dos Santos, 0 - Centro - Assis, S\u00e3o Paulo - Cep:19814-015",
+              "map": "https:\/\/www.google.com.br\/maps\/place\/Assis+-+SP,+Brazil\/@-22.6604341,-50.4187813",
+              "tel": "(18)33026000 Ramal:6023 <br> (18)33026000 Ramal:6025",
+              "cep": "19814-015"
+            },
+            {
+              "title": "Hospital S\u00e3o Paulo De Ensino Da Unifesp S\u00e3o Paulo",
+              "the_content": "Rua Dr\u00b0 Diogo de Faria, n\u00ba 824 - 1\u00ba andar - Vila Clementino - Sao Paulo, S\u00e3o Paulo - Cep: 04037-002",
+              "map": "https:\/\/goo.gl\/maps\/sHaZ4uamSMb8XBKo6",
+              "tel": "(11)5576-4240 Op\u00e7\u00e3o:1",
+              "cep": "04037-002"
+            },
+            {
+              "title": "Nucleo De Atendimento A Comunidade Farm\u00e1cia Araraquara",
+              "the_content": "R Exps Do Brasil, 1621 - Centro - Araraquara, S\u00e3o Paulo - Cep:14801-360",
+              "map": "https:\/\/www.google.com.br\/maps\/place\/Araraquara+-+SP,+Brazil\/@-21.7848272,-48.1786486",
+              "tel": "(16)33016102",
+              "cep": "14801-360"
+            },
+            {
+              "title": "Colsan",
+              "the_content": "Av Cdor Pereira Inacio, 564 - Jardim Faculdade - Sorocaba, S\u00e3o Paulo - Cep:18030-005",
+              "map": "https:\/\/www.google.com.br\/maps\/place\/Avenida+Comendador+Pereira+In\u00e1cio,+564+-+Jardim+Vergueiro,+Sorocaba+-+SP,+Brazil\/@-23.5114888,-47.456187",
+              "tel": "(15)32242930 <\/br> (15)33329122",
+              "cep": "18030-005"
+            },
+            {
+              "title": "Funda\u00e7\u00e3o Faculdade Regional De Medicina De S\u00e3o Jos\u00e9 Do Rio Preto",
+              "the_content": "R Jamil Feres Kfouri, 80 - Jardim Panorama - Sao Jose Do Rio Preto, S\u00e3o Paulo - Cep:15091-240",
+              "map": "https:\/\/www.google.com.br\/maps\/place\/S\u00e3o+Jos\u00e9+do+Rio+Preto+-+State+of+S\u00e3o+Paulo,+Brazil\/@-20.811761,-49.3762272",
+              "tel": "(17)32015076 Ramal:1930 <br> (17)32015078 Ramal:1930",
+              "cep": "15091-240"
+            },
+            {
+              "title": "Hemocentro Da Faculdade De Medicina De Marilia",
+              "the_content": "R Lourival Freire, 240 - Fragata - Marilia, S\u00e3o Paulo - Cep:17519-050",
+              "map": "https:\/\/www.google.com.br\/maps\/place\/Rua+Lourival+Freire+-+Fragata,+Mar\u00edlia+-+SP,+17519-050,+Brazil\/@-22.2245865,-49.9375091",
+              "tel": "(14)34021866",
+              "cep": "17519-050"
+            },
+            {
+              "title": "Hemocentro Da Santa Casa De S\u00e3o Paulo\/laborat\u00f3rio De Histocompatibilidade",
+              "the_content": "R Mq De Itu, 579 Laborat\u00f3rio 2\u00ba Andar - Vila Buarque - Sao Paulo, S\u00e3o Paulo - Cep:01223-001",
+              "map": "https:\/\/www.google.com.br\/maps\/place\/Rua+Marqu\u00eas+de+Itu,+579+-+Vila+Buarque,+S\u00e3o+Paulo+-+SP,+01223-001,+Brazil\/@-23.543883,-46.6499773",
+              "tel": "2176-7249 (direto) ou 2176-7000 - Ramal: 7249",
+              "cep": "01223-001"
+            },
+            {
+              "title": "Hemocentro De Botucatu",
+              "the_content": "Distrito De Rubi\u00e3o J\u00fanior, 0  - Rubi\u00e3o Junior - Botucatu, S\u00e3o Paulo - Cep:18618-970",
+              "map": "https:\/\/www.google.com.br\/maps\/place\/Avenida+Rubi\u00e3o+Jr,+0+-+Centro,+Botucatu+-+SP,+18600-400,+Brazil\/@-22.8992387,-48.4924076",
+              "tel": "(14)38116041 Ramal:215 <\/br> (14)38116041 Ramal:240 <\/br> (14)38116041 Ramal:237",
+              "cep": "18618-970"
+            },
+            {
+              "title": "Hemocentro De Campinas\/ Unicamp",
+              "the_content": "R Carlos Chagas, 480 - Cidade Universitaria - Campinas, S\u00e3o Paulo - Cep:13083-878",
+              "map": "https:\/\/www.google.com.br\/maps\/place\/Hemocentro+-+Unicamp+-+Rua+Carlos+Chagas,+480+-+Cidade+Universit\u00e1ria,+Campinas+-+SP,+13083-878,+Brazil\/@-22.828624,-47.063853",
+              "tel": "(19)35218705 <\/br> 0800 7228432",
+              "cep": "13083-878"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "regiao": "Regi\u00e3o Sul",
+      "estados": [
+        {
+          "id": 34,
+          "nome": "Paran\u00e1",
+          "regiao": "Regi\u00e3o Sul",
+          "unidades": [
+            {
+              "title": "Hospital Universit\u00e1rio Regional Do Norte Do Paran\u00e1",
+              "the_content": "R. Claudio D. Cavalieri, 156 - Jd. Aruba - Londrina, Paran\u00e1 - Cep:86038-350",
+              "map": "https:\/\/www.google.com.br\/maps\/place\/Londrina+-+PR,+Brazil\/@-23.3044524,-51.1695824",
+              "tel": "(43)33712218 <br> (43)33712356 <br> (43)33712417 ",
+              "cep": "86038-350"
+            },
+            {
+              "title": "Unidade De Coleta E Transfus\u00e3o De Toledo",
+              "the_content": "R Alm Barroso, 2490 - Centro - Toledo, Paran\u00e1 - Cep:85900-020",
+              "map": "https:\/\/www.google.com.br\/maps\/place\/Rua+Almirante+Barroso,+2490+-+Centro,+Toledo+-+PR,+85900-020,+Brazil\/@-24.7287548,-53.7408363",
+              "tel": "(45)33791993 <br> (45)99128699",
+              "cep": "85900-020"
+            },
+            {
+              "title": "Hemepar Cornelio Procopio",
+              "the_content": "Rua Justino Marques Bonfim, 27 - Centro - Cornelio Procopio, Paran\u00e1 - Cep:86300-000",
+              "map": "https:\/\/www.google.com.br\/maps\/place\/Corn\u00e9lio+Proc\u00f3pio+-+PR,+Brazil\/@-23.1827465,-50.6456587",
+              "tel": "(43)35203526 <\/br> (43)35203523<\/br> (43)35242388 ",
+              "cep": "86300-000"
+            },
+            {
+              "title": "Hemepar Curitiba",
+              "the_content": "Tv Joao Prosdocimo, 145 - Alto Da Rua Xv - Curitiba, Paran\u00e1 - Cep:80045-145",
+              "map": "https:\/\/www.google.com.br\/maps\/place\/Travessa+Jo\u00e3o+Prosd\u00f3cimo,+145+-+Alto+da+Rua+XV,+Matriz,+Curitiba+-+PR,+Brazil\/@-25.4249838,-49.257592",
+              "tel": "(41)32814042 <\/br> (41)32814000 ",
+              "cep": "80045-145"
+            },
+            {
+              "title": "Hemepar Guarapuava",
+              "the_content": "R Afonso Botelho, 134 - Trianon - Guarapuava, Paran\u00e1 - Cep:85015-000",
+              "map": "https:\/\/www.google.com.br\/maps\/place\/Rua+Afonso+Botelho,+134+-+Santana,+Guarapuava+-+PR,+85070-165,+Brazil\/@-25.3974942,-51.4580999",
+              "tel": "(42)36222819  <\/br> (42)36223790 ",
+              "cep": "85015-000"
+            },
+            {
+              "title": "Hemepar Irati",
+              "the_content": "Rua Coronel Garcia, 761 - Centro - Irati, Paran\u00e1 - Cep:84500-000",
+              "map": "https:\/\/www.google.com.br\/maps\/place\/Rua+Coronel+Gr\u00e1cia,+761,+Irati+-+PR,+84500-000,+Brazil\/@-25.4673017,-50.6501954",
+              "tel": "(42)34232400  <\/br> (42)34223119 ",
+              "cep": "84500-000"
+            },
+            {
+              "title": "Hemepar Jacarezinho",
+              "the_content": "Rua Coronel Cec\u00edlio Rocha, 425 - Centro - Jacarezinho, Paran\u00e1 - Cep:86400-000",
+              "map": "https:\/\/www.google.com.br\/maps\/place\/Jacar\u00e8zinho+-+PR,+Brazil\/@-23.157939,-49.9777202",
+              "tel": "(43)35271777 ",
+              "cep": "86400-000"
+            },
+            {
+              "title": "Hemepar Paranagua",
+              "the_content": "Rua Gabriel De Lara, 481 - Centro Historico - Paranagua, Paran\u00e1 - Cep:83203-250",
+              "map": "https:\/\/www.google.com.br\/maps\/place\/Avenida+Gabriel+de+Lara,+481+-+Centro+Hist\u00f3rico,+Paranagu\u00e1+-+PR,+83203-742,+Brazil\/@-25.5202259,-48.5064362",
+              "tel": "(41)34224931 ",
+              "cep": "83203-250"
+            },
+            {
+              "title": "Hemepar Ponta Grossa",
+              "the_content": "R Gen Osorio, 2390 - Centro - Ponta Grossa, Paran\u00e1 - Cep:84010-080",
+              "map": "https:\/\/www.google.com.br\/maps\/place\/Rua+General+Os\u00f3rio+-+Centro,+Ponta+Grossa+-+PR,+Brazil\/@-25.1003739,-50.1585908",
+              "tel": "(42)32231616 ",
+              "cep": "84010-080"
+            },
+            {
+              "title": "Hemepar Telemaco Borba",
+              "the_content": "Rua Os\u00f3rio De Almeida Taques, 62 - Centro - Telemaco Borba, Paran\u00e1 - Cep:84261-060",
+              "map": "https:\/\/www.google.com.br\/maps\/place\/Avenida+Os\u00f3rio+Almeida+Taques,+62+-+Centro,+Tel\u00eamaco+Borba+-+PR,+84261-680,+Brazil\/@-24.3304024,-50.6191598",
+              "tel": "(42)32723743 ",
+              "cep": "84261-060"
+            },
+            {
+              "title": "Hemepar Umuarama",
+              "the_content": "Av Manaus, 4444 - Centro C\u00edvico - Umuarama, Paran\u00e1 - Cep:87501-130",
+              "map": "https:\/\/www.google.com.br\/maps\/place\/Umuarama+-+PR,+Brazil\/@-23.7661064,-53.3206105",
+              "tel": "(44)36218301 ",
+              "cep": "87501-130"
+            },
+            {
+              "title": "Hemobanco &#8211; Curitiba",
+              "the_content": "R Cap Souza Franco, 290 Casa - Batel - Curitiba, Paran\u00e1 - Cep:80730-420",
+              "map": "https:\/\/www.google.com.br\/maps\/place\/Rua+Capit\u00e3o+Souza+Franco,+290+-+Batel,+Matriz,+Curitiba+-+PR,+80730-420,+Brazil\/@-25.4356704,-49.2904908",
+              "tel": "(41)30235545 ",
+              "cep": "80730-420"
+            },
+            {
+              "title": "Hemocentro Regional De Cascavel",
+              "the_content": "R Avaetes, 37 - Santo Onofre - Cascavel, Paran\u00e1 - Cep:85806-380",
+              "map": "https:\/\/www.google.com.br\/maps\/place\/Rua+Avaet\u00e9s,+37+-+Santo+Onofre,+Cascavel+-+PR,+85806-380,+Brazil\/@-24.9759069,-53.4964194",
+              "tel": "(45)32264549  <br> (45)32260808 ",
+              "cep": "85806-380"
+            },
+            {
+              "title": "Hemocentro Regional De Maring\u00e1",
+              "the_content": "Av Mandacaru, 1600 - Parque Das Laranjeiras - Maringa, Paran\u00e1 - Cep:87083-240",
+              "map": "https:\/\/www.google.com.br\/maps\/place\/Avenida+Mandacaru,+1600+-+Parque+das+Laranjeiras,+Maring\u00e1+-+PR,+Brazil\/@-23.4018724,-51.956657",
+              "tel": "(44)30119151  <br> (44)30119400  <br> (44)30119194 ",
+              "cep": "87083-240"
+            },
+            {
+              "title": "Hemon\u00facleo De Foz Do Igua\u00e7u",
+              "the_content": "Av Gramado, 364 - Vila Residencial A - Foz Do Iguacu, Paran\u00e1 - Cep:85860-460",
+              "map": "https:\/\/www.google.com.br\/maps\/place\/Avenida+Gramado,+364+-+Vila+A,+Foz+do+Igua\u00e7u+-+PR,+85861-020,+Brazil\/@-25.494464,-54.5383508",
+              "tel": "(45)35768020 ",
+              "cep": "85860-460"
+            },
+            {
+              "title": "Hemon\u00facleo Regional De Francisco Beltr\u00e3o",
+              "the_content": "R Marilia, 1327 - Padre Ulrico - Francisco Beltrao, Paran\u00e1 - Cep:85604-400",
+              "map": "https:\/\/www.google.com.br\/maps\/place\/Rua+Mar\u00edlia,+1327+-+Luther+King,+Francisco+Beltr\u00e3o+-+PR,+85605-140,+Brazil\/@-26.0651667,-53.0448564",
+              "tel": "(46)35243454  <br> (46)35242434 ",
+              "cep": "85604-400"
+            },
+            {
+              "title": "Hemon\u00facleo Regional De Paranava\u00ed",
+              "the_content": "R Rio G Do Sul, 2390 - Centro - Paranavai, Paran\u00e1 - Cep:87703-320",
+              "map": "https:\/\/www.google.com.br\/maps\/place\/Rua+Rio+Grande+do+Sul,+2390+-+Centro,+Paranava\u00ed+-+PR,+87702-090,+Brazil\/@-23.0731189,-52.4640465",
+              "tel": "(44)34215160  <\/br> (44)34215163  <\/br> (44)34215100 ",
+              "cep": "87703-320"
+            },
+            {
+              "title": "Hospital De Cl\u00ednicas &#8211; Ufpr",
+              "the_content": "Av Agostinho L Junior, 108 T\u00e9rreo - Centro - Curitiba, Paran\u00e1 - Cep:80030-110",
+              "map": "https:\/\/www.google.com.br\/maps\/place\/Avenida+Agostinho+Le\u00e3o+Junior,+108+-+Centro,+Matriz,+Curitiba+-+PR,+80030-110,+Brazil\/@-25.4241867,-49.2649582",
+              "tel": "(41)33601800 Ramal:6527 <\/br> (41)33601875 <\/br> (41)33601800 Ramal:6481",
+              "cep": "80030-110"
+            },
+            {
+              "title": "Hospital Erasto Gaertner",
+              "the_content": "R Dr Ovande Do Amaral, 201 Hospital Erasto Gaer - Jardim Das Americas - Curitiba, Paran\u00e1 - Cep:81520-060",
+              "map": "https:\/\/www.google.com.br\/maps\/place\/Rua+Doutor+Ovande+do+Amaral,+201+-+Jardim+das+Americas,+Cajuru,+Curitiba+-+PR,+81520-060,+Brazil\/@-25.4542386,-49.2394749",
+              "tel": "(41)33615037  <\/br> (41)33615186  <\/br> (41)33615038 ",
+              "cep": "81520-060"
+            },
+            {
+              "title": "Assims",
+              "the_content": "R Parana, 1633 - Sambugaro - Pato Branco, Paran\u00e1 - Cep:85501-090",
+              "map": "https:\/\/www.google.com.br\/maps\/place\/Rua+Paran\u00e1,+1633+-+Centro,+Pato+Branco+-+PR,+85501-090,+Brazil\/@-26.2233218,-52.6803241",
+              "tel": "(46)32251014  <\/br> (46)32253585  <\/br> (46)32253291 ",
+              "cep": "85501-090"
+            },
+            {
+              "title": "Banco De Sangue Na Santa Casa",
+              "the_content": "Pc Rui Barbosa, 694 - Centro - Curitiba, Paran\u00e1 - Cep:80010-030",
+              "map": "https:\/\/www.google.com.br\/maps\/place\/Pra\u00e7a+Rui+Barbosa,+694+-+Centro,+Matriz,+Curitiba+-+PR,+80010-030,+Brazil\/@-25.4369705,-49.2741851",
+              "tel": "(41)33222387 ",
+              "cep": "80010-030"
+            },
+            {
+              "title": "Cisvali",
+              "the_content": "Rua Castro Alves, 26 Pr\u00e9dio - Centro - Uniao Da Vitoria, Paran\u00e1 - Cep:84600-000",
+              "map": "https:\/\/www.google.com.br\/maps\/place\/Rua+Castro+Alves,+26+-+Centro,+Uni\u00e3o+da+Vit\u00f3ria+-+PR,+84600-000,+Brazil\/@-26.2270286,-51.0865923",
+              "tel": "(42)35237930  <\/br> (42)35221365  <\/br> (42)35221793 ",
+              "cep": "84600-000"
+            },
+            {
+              "title": "Consorcio De Saude &#8211; Cianorte",
+              "the_content": "Pra\u00e7a Da Republica, 71 - Centro - Cianorte, Paran\u00e1 - Cep:87200-000",
+              "map": "https:\/\/www.google.com.br\/maps\/place\/Cons\u00f3rcio+Intermunicipal+de+Sa\u00fade+Centro+Noroeste+do+Paran\u00e1-CISCENOP+-+Pra\u00e7a+da+Rep\u00fablica,+71+-+Zona+1,+Cianorte+-+PR,+87200-000,+Brazil\/@-23.6551161,-52.6115821",
+              "tel": "(44)3619191 ",
+              "cep": "87200-000"
+            },
+            {
+              "title": "Hemepar Apucarana",
+              "the_content": "R Antonio Ostrenski, 03 - Centro - Apucarana, Paran\u00e1 - Cep:86800-200",
+              "map": "https:\/\/www.google.com.br\/maps\/place\/Rua+Ant\u00f4nio+Ostrenski,+3+-+Centro,+Apucarana+-+PR,+86800-200,+Brazil\/@-23.5533524,-51.4696826",
+              "tel": "(41)34204200 ",
+              "cep": "86800-200"
+            },
+            {
+              "title": "Hemepar Campo Mourao",
+              "the_content": "R Mambore, 1500 - Centro - Campo Mourao, Paran\u00e1 - Cep:87302-140",
+              "map": "https:\/\/www.google.com.br\/maps\/place\/Rua+Mambore,+1500+-+Centro,+Campo+Mour\u00e3o+-+PR,+87302-140,+Brazil\/@-24.045045,-52.3908055",
+              "tel": "(44)35251102  <\/br> (44)35231844 Ramal:",
+              "cep": "87302-140"
+            }
+          ]
+        },
+        {
+          "id": 38,
+          "nome": "Rio Grande Do Sul",
+          "regiao": "Regi\u00e3o Sul",
+          "unidades": [
+            {
+              "title": "Hemosar",
+              "the_content": "Rua Boa Vista, 401 - Centro - Santa Rosa, Rio Grande Do Sul - Cep:98900-000",
+              "map": "https:\/\/www.google.com.br\/maps\/place\/Rua+Boa+Vista,+401+-+Centro,+Santa+Rosa+-+RS,+98900-000,+Brazil\/@-27.8684566,-54.4861736",
+              "tel": "(55)35126122",
+              "cep": "98900-000"
+            },
+            {
+              "title": "Hospital Concei\u00e7\u00e3o",
+              "the_content": "Av Francisco Trein, 596 - Passo D'areia - Porto Alegre, Rio Grande Do Sul - Cep:91350-200",
+              "map": "https:\/\/www.google.com.br\/maps\/place\/Avenida+Francisco+Trein,+596+-+Cristo+Redentor,+Porto+Alegre+-+RS,+Brazil\/@-30.0162194,-51.15908",
+              "tel": "(51)33574234",
+              "cep": "91350-200"
+            },
+            {
+              "title": "Hospital De Cl\u00ednicas De Porto Alegre",
+              "the_content": "R Ramiro Barcelos, 2350 2\u00ba Andar - Santana - Porto Alegre, Rio Grande Do Sul - Cep:90035-007",
+              "map": "https:\/\/www.google.com.br\/maps\/place\/Rua+Ramiro+Barcelos,+2350+-+Floresta,+Porto+Alegre+-+RS,+90035-004,+Brazil\/@-30.039951,-51.2082828",
+              "tel": "(51)33598309 <br> (51)33598020 <br> (51)33598308",
+              "cep": "90035-007"
+            },
+            {
+              "title": "Hemocentro Regional De Alegrete",
+              "the_content": "R Gen Sampaio, 10 - Vila Nova - Alegrete, Rio Grande Do Sul - Cep:97541-260",
+              "map": "https:\/\/www.google.com.br\/maps\/place\/Rua+General+Sampaio,+10+-+Centro,+Alegrete+-+RS,+Brazil\/@-29.7880963,-55.795094",
+              "tel": "(55)34264127",
+              "cep": "97541-260"
+            },
+            {
+              "title": "Hemocentro Regional De Caxias Do Sul",
+              "the_content": "R Ernesto Alves, 2260 - Nossa Senhora De Lourdes - Caxias Do Sul, Rio Grande Do Sul - Cep:95020-360",
+              "map": "https:\/\/www.google.com.br\/maps\/place\/Rua+Ernesto+Alves,+2260+-+Nossa+Senhora+de+Lourdes,+Caxias+do+Sul+-+RS,+95020-360,+Brazil\/@-29.1640035,-51.1852882",
+              "tel": "(54)32904576 <br> (54)32904577 ",
+              "cep": "95020-360"
+            },
+            {
+              "title": "Hemocentro Regional De Cruz Alta",
+              "the_content": "R Br Do Rio Branco, 1445 Fundos - Centro - Cruz Alta, Rio Grande Do Sul - Cep:98010-770",
+              "map": "https:\/\/www.google.com.br\/maps\/place\/Rua+Bar\u00e3o+do+Rio+Branco,+1445+-+Centro,+Cruz+Alta+-+RS,+98005-030,+Brazil\/@-28.6420362,-53.6080518",
+              "tel": "(55)33263168 <br> (55)33263478 ",
+              "cep": "98010-770"
+            },
+            {
+              "title": "Hemocentro Regional De Palmeira Das Missoes",
+              "the_content": "Rua Nassib Nassif, 503 - Loteamento C\u00e9u Azul - Palmeira Das Missoes, Rio Grande Do Sul - Cep:98300-000",
+              "map": "https:\/\/www.google.com.br\/maps\/place\/Palmeira+das+Miss\u00f5es+-+RS,+Brazil\/@-27.9001784,-53.3140353",
+              "tel": "(55)37425676",
+              "cep": "98300-000"
+            },
+            {
+              "title": "Hemocentro Regional De Santa Maria",
+              "the_content": "Al Santiago Do Chile, 35 Pr\u00f3ximo Ao F\u00f3rum - Nossa Senhora De Lourdes - Santa Maria, Rio Grande Do Sul - Cep:97050-685",
+              "map": "https:\/\/www.google.com.br\/maps\/place\/Alameda+Santiago+do+Chile,+35+-+Nossa+Senhora+das+Dores,+Santa+Maria+-+RS,+97050-685,+Brazil\/@-29.6926706,-53.7944018",
+              "tel": "(55)99164219 <br> (55)91316991 <br> (55)32215262 ",
+              "cep": "97050-685"
+            },
+            {
+              "title": "Hemopasso Hemocentro Regional De Passo Fundo",
+              "the_content": "Av Sete De Setembro, 1055 Bloco A - Centro - Passo Fundo, Rio Grande Do Sul - Cep:99010-120",
+              "map": "https:\/\/www.google.com.br\/maps\/place\/Avenida+Sete+de+Setembro,+1055+-+Centro,+Passo+Fundo+-+RS,+99010-120,+Brazil\/@-28.2541176,-52.420188",
+              "tel": "(54)33115555  <br> (54)33111427",
+              "cep": "99010-120"
+            },
+            {
+              "title": "Hemopel",
+              "the_content": "Av Bento Goncalves, 4569 - Centro - Pelotas, Rio Grande Do Sul - Cep:96015-145",
+              "map": "https:\/\/www.google.com.br\/maps\/place\/Avenida+Bento+Gon\u00e7alves,+4569+-+Porto,+Pelotas+-+RS,+96015-140,+Brazil\/@-31.7581563,-52.3489107",
+              "tel": "(53)32254022  <br> (53)32223002 ",
+              "cep": "96015-145"
+            },
+            {
+              "title": "Hemorgs",
+              "the_content": "Av Bento Goncalves, 3722 - Partenon - Porto Alegre, Rio Grande Do Sul - Cep:90650-001",
+              "map": "https:\/\/www.google.com.br\/maps\/place\/Avenida+Bento+Gon\u00e7alves,+3722+-+Partenon,+Porto+Alegre+-+RS,+Brazil\/@-30.0632495,-51.1787812",
+              "tel": "(51)33366755",
+              "cep": "90650-001"
+            }
+          ]
+        },
+        {
+          "id": 41,
+          "nome": "Santa Catarina",
+          "regiao": "Regi\u00e3o Sul",
+          "unidades": [
+            {
+              "title": "Centro De Hematologia E Hemoterapia De Santa Catarina",
+              "the_content": "Av Prf Othon Gama Deca, 756 Pra\u00e7a D. Pedro I - Centro - Florianopolis, Santa Catarina - Cep:88015-240",
+              "map": "https:\/\/www.google.com.br\/maps\/place\/Avenida+Professor+Othon+Gama+D'E\u00e7a,+756+-+Centro,+Florian\u00f3polis+-+SC,+Brazil\/@-27.5889634,-48.5514392",
+              "tel": "(48) 3251-9711 \/ (48) 3251-9712 \/ (48) 3251-9713 ",
+              "cep": "88015-240"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
