@@ -2,15 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ddaf50ce-bcb3-4dd3-9cc8-1313873b5628" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/list.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../doe_sangue/lib/Provider/Users.dart" beforeDir="false" afterPath="$PROJECT_DIR$/../doe_sangue/lib/Provider/Users.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../doe_sangue/lib/Views/DonationPlaces/Components/Maps.dart" beforeDir="false" afterPath="$PROJECT_DIR$/../doe_sangue/lib/Views/DonationPlaces/Components/Maps.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../doe_sangue/lib/Views/FriendsList/FriendsList.dart" beforeDir="false" afterPath="$PROJECT_DIR$/../doe_sangue/lib/Views/FriendsList/FriendsList.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../doe_sangue/lib/Views/Home/Home.dart" beforeDir="false" afterPath="$PROJECT_DIR$/../doe_sangue/lib/Views/Home/Home.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../doe_sangue/lib/Views/Login/Login.dart" beforeDir="false" afterPath="$PROJECT_DIR$/../doe_sangue/lib/Views/Login/Login.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../doe_sangue/lib/Views/Profile/Profile.dart" beforeDir="false" afterPath="$PROJECT_DIR$/../doe_sangue/lib/Views/Profile/Profile.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../doe_sangue/lib/Views/Settings/Settings.dart" beforeDir="false" afterPath="$PROJECT_DIR$/../doe_sangue/lib/Views/Settings/Settings.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../doe_sangue/lib/main.dart" beforeDir="false" afterPath="$PROJECT_DIR$/../doe_sangue/lib/main.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,6 +23,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -56,6 +49,8 @@
       <workItem from="1609011934544" duration="1690000" />
       <workItem from="1609013895776" duration="3238000" />
       <workItem from="1609081188162" duration="907000" />
+      <workItem from="1610145434736" duration="22000" />
+      <workItem from="1610413592015" duration="364000" />
     </task>
     <servers />
   </component>
